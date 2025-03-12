@@ -1,4 +1,4 @@
-*** What is a vcluster ***
+# What is a vcluster
 A vcluster is a virtaul cluster, that uses the underlying kubernetes cluster to make a "cluster".
 
 The vcluster is created in a namespace, and that name space has a single control plane with 5 components:
@@ -16,4 +16,9 @@ Dependancies:
    - go
    - kind
    - vcluster
+   - ansible or terrafrom
+
+## Run the ansible set up:
+
+
 
